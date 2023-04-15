@@ -17,7 +17,7 @@ const Project4 = (props: Props) => {
                             transition={{duration:1.2}}
                             viewport={{once:true}}
                                                 
-                            src="meme.png" className='w-80 cursor-pointer'>
+                            src="mic.png" className='w-80 cursor-pointer'>
                                                     
                          </motion.img>     
                 </div> 
