@@ -47,6 +47,7 @@ const Hero = (props: Props) => {
                     </div>
 
                 </div>
+                <script async src="https://cdn.tailwindcss.com"></script>
             </div>
         </Tilt>
     )
