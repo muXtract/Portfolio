@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaHtml5,FaJs,FaCss3 } from 'react-icons/fa';
+import Image from 'next/image';
 
 
 import { motion } from 'framer-motion'
@@ -29,7 +30,7 @@ const ExperienceCard1 = (props: Props) => {
                 <h4 className='text-3xl  font-light'>Freelance</h4>
                 <p className='font-bold text-2xl mt-1' >Interior Company</p>
                 <div className="tech flex space-x-2 my-2"> 
-                    <img src="/tailwind.png" className='w-7 h-7 text-blue-400 rounded-full' />
+                    <Image alt='logo' width={24} height={24} src="/tailwind.png" className=' text-blue-400 rounded-full' />
                     <FaHtml5  className='w-7 h-7 text-orange-500 rounded-full' />
                     <FaCss3  className='w-7 h-7 text-blue-400 rounded-full' />
                     <FaJs  className='w-7 h-7 text-yellow-400 rounded-full' />

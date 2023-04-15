@@ -36,7 +36,7 @@ const ExperienceCard3 = (props: Props) => {
                 <p className='uppercase py-5 text-gray-300'>Dec 2021</p>
                 <ul className='list-disc space-y-4  text-lg max-w-[250px] md:max-w:2xl '>
                 
-                <p>I was the vice president of my school's tech club and participated in various `capture the flag` events </p>
+                <p>I was the vice president of my school&apos;s tech club and participated in various &apos;capture the flag&apos; events </p>
                    
                 </ul>
             </div>

@@ -24,7 +24,7 @@ const Contact = (props: Props) => {
                 <h3 className="absolute top-5 pl-5 uppercase tracking-[20px] text-gray-500 text-2xl ">Contact</h3>
                 <div className=" flex-col space-y-8 items-center w-full flex justify-center">
                     <h4 className='absolute top-16 text-3xl font-semibold text-center '>
-                        Let's talk
+                        Let&apos;s talk
                     </h4>
                     <div className="relative flex-col  space-y-5">
                         
@@ -56,7 +56,7 @@ const Contact = (props: Props) => {
        
        
        
-            <script src="https://cdn.tailwindcss.com"></script>
+            <script async src="https://cdn.tailwindcss.com"></script>
         </div>
 
     )

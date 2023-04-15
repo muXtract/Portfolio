@@ -7,6 +7,7 @@ import { FaJs } from 'react-icons/fa';
 
 
 import { motion } from 'framer-motion'
+import Image from 'next/image';
 interface Props {
     
 }
@@ -33,7 +34,7 @@ const ExperienceCard2 = (props: Props) => {
                 <h4 className='text-3xl  font-light'>College Society</h4>
                 <p className='font-bold text-2xl mt-1' >Roundtable</p>
                 <div className="tech flex space-x-2 my-2"> 
-                    <img src="/tailwind.png" className='w-7 h-7 text-blue-400 rounded-full' />
+                <Image alt='logo' width={24} height={24} src="/tailwind.png" className=' text-blue-400 rounded-full' />
                     <FaHtml5  className='w-7 h-7 text-orange-500 rounded-full' />
                     <FaCss3  className='w-7 h-7 text-blue-400 rounded-full' />
                     <FaJs  className='w-7 h-7 text-yellow-400 rounded-full' />

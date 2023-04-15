@@ -29,9 +29,9 @@ const About=() => {
                 <div className="px-0 max-w-full md:px-10 mt-8">
                     <h4 className="text-4xl lg:tracking-wide font-semibold">Here is a {" "}
                         <span className=" text-[#F7AB0A]/90">lil {" "}</span>background
-                        <p className="text-base  mt-2">Hi ,I'm Vijay, a student at DTU. I'm an avid coder and spend most of my free time exploring new technologies and honing my skills ( still learning how to make a better snowman ) . I also have a passion for basketball and you can often find me at the local courts. </p>
+                        <p className="text-base  mt-2">Hi ,I&apos;m Vijay, a student at DTU. I&apos;m an avid coder and spend most of my free time exploring new technologies and honing my skills ( still learning how to make a better snowman ) . I also have a passion for basketball and you can often find me at the local courts. </p>
                         <div className=" text-base hidden lg:block">
-                            <section {...getCollapseProps()}> I'm known among my peers for my strong work ethic and dedication to achieving my goals. I firmly believe in putting in the hard work required to succeed in whatever I do.Apart from my academic and athletic pursuits, I love traveling and exploring new places. I find that traveling and experiencing new cultures and perspectives is a great way to broaden one's horizons and learn new things..</section>
+                            <section {...getCollapseProps()}> I&apos;m known among my peers for my strong work ethic and dedication to achieving my goals. I firmly believe in putting in the hard work required to succeed in whatever I do.Apart from my academic and athletic pursuits, I love traveling and exploring new places. I find that traveling and experiencing new cultures and perspectives is a great way to broaden one&apos;s horizons and learn new things..</section>
                             <button className="text-lg hidden lg:block text-gray-500 animate-pulse tracking-widest"
                             {...getToggleProps()}>
                                 {isExpanded ? 'Collapse' : 'Expand'}
@@ -43,7 +43,7 @@ const About=() => {
                  </div>
            </div>
           
-           <script src="https://cdn.tailwindcss.com"></script>
+           <script async src="https://cdn.tailwindcss.com"></script>
         </div>
     )
 }

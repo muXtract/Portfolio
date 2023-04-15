@@ -22,7 +22,7 @@ export default function Home() {
       
 
 
-      <script src="https://cdn.tailwindcss.com"></script>
+      <script async src="https://cdn.tailwindcss.com"></script>
      
     </div>
   )

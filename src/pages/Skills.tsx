@@ -66,7 +66,7 @@ const Skills = (props: Props) => {
            
            
                         </motion.div>
-           <script src="https://cdn.tailwindcss.com"></script>
+           <script async src="https://cdn.tailwindcss.com"></script>
         </div>
         
     )
