@@ -16,7 +16,7 @@ const Hero = (props: Props) => {
     words:["Hi,I'm Vijay","And I like to Code"],loop:true,delaySpeed:1500
     });
     return(
-        <Tilt>
+         <Tilt  gyroscope={false} trackOnWindow={false} >
             <div className='h-[50vh] md:h-screen flex flex-col mt-10 items-center justify-center text-center overflow-y-scrollbar'>
                 <BackgroundCircles/>
                 <Image src="/coder.svg" width={80} height={80} alt='pfp'></Image>
@@ -36,6 +36,7 @@ const Hero = (props: Props) => {
                         <Link href="/Skills">
                         <button className='px-2 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 ' >Skills</button>
                         </Link>
+                        
                         <Link href="/Projects">
                         <button className='px-2 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 ' >Projects</button>
                         </Link>
